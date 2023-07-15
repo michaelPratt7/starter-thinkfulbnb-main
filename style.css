@@ -149,7 +149,7 @@ footer p {
     justify-content: flex-end;
   }
 
-  .group {
+  header {
     flex-direction: row;
   }
 }
