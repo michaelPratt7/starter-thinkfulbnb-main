@@ -30,8 +30,8 @@ section.alternate-background {
   color: #fff;
 }
 
-main img {
-  width: 100px;
+img {
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -58,7 +58,7 @@ header {
   text align: center;
 }
 
-.logo {
+ .logo {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
@@ -89,24 +89,21 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
-  border: 2px solid #ff385c;
-  padding: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #ff385c;
+  padding: 10px;
 }
 
 form label {
   font-weight: bold;
-  display: flex;
-  justify-content: flex-start;
+  padding-right: 10px;
 }
 
-form select,
-form input {
-  margin-bottom: 20px;
-  width: 180px;
-  display: flex;
-  
+form button:hover {
+    color: #7A7978;
+  text-decoration: none;
 }
 
 form button {
@@ -116,6 +113,16 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+select {
+  padding-right: 70px;
 }
 
 /* -------  Footer ------- */
@@ -131,3 +138,22 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 768px) {
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+main img {
+  width: 100%;
+}
