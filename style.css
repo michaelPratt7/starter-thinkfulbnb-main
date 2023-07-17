@@ -151,6 +151,10 @@ footer p {
   .logo {
     display: flex;
     justify-content: flex-start;
+    margin-top: 14px;
+    font-family: "Pangolin", cursive;
+    font-size: 42px;
+    color: #fff;
     
   }
   header nav {
