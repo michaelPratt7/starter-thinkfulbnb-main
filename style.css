@@ -147,7 +147,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 786px) {
+@media all and (min-width: 480px) {
   .logo {
     display: flex;
     justify-content: flex-start;
