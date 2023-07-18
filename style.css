@@ -148,21 +148,7 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 600px) {
-  header {
-    background-color: #ff385c;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  header nav {
-    padding: 10px;
-  }
-
-  form {
-    flex-direction: row;
-  }
-
+ 
   .group {
     display: flex;
     flex-direction: row;
@@ -171,19 +157,31 @@ footer p {
     align-items: center;
   }
 
-  .vacation-form .item {
-    display: flex block;
-    flex: 1 1 auto;
-    flex-direction: column;
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 14px;
+    font-family: "Pangolin", cursive;
+    font-size: 42px;
+    color: #fff;
+    
+  }
+  header nav {
+   margin-top: 14px;
   }
 
-  .item label
-  , .item input
-  , .item select
-  , .item button{
+  header {
     display: flex;
-    width: 100%
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
   }
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
   .grid-column {
     display: flex;
