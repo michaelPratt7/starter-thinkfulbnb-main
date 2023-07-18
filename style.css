@@ -152,8 +152,6 @@ footer p {
   .group {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-flow: row nowrap;
     align-items: center;
   }
 
@@ -178,4 +176,17 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 14px 0;
+  padding-top: 6px;
+}
+
 }
