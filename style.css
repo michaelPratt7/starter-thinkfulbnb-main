@@ -147,7 +147,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
  
   .group {
     display: flex;
@@ -195,43 +195,4 @@ form {
     flex: 1;
     flex-direction: row;
   }
-}
-
-
-
-/*@media all and (min-width: 786px) {
-  .logo {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 14px;
-    font-family: "Pangolin", cursive;
-    font-size: 42px;
-    color: #fff;
-    
-  }
-  header nav {
-   margin-top: 14px;
-  }
-
-  header {
-    display: flex;
-    flex-direction: row;
-    padding: 0px 30px;
-    justify-content: space-between;
-  }
-
-form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-main img {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-
 }
