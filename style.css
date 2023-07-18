@@ -158,8 +158,6 @@ footer p {
   }
 
   .logo {
-    display: flex;
-    justify-content: flex-start;
     margin-top: 14px;
     font-family: "Pangolin", cursive;
     font-size: 42px;
@@ -172,7 +170,6 @@ footer p {
 
   header {
     display: flex;
-    flex-direction: row;
     padding: 0px 30px;
     justify-content: space-between;
   }
@@ -181,18 +178,4 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-  .grid-column {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    margin: 10px;
-  }
-
-  .grid-row {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-  }
 }
