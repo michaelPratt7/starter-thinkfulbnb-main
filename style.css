@@ -147,7 +147,61 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 786px) {
+@media all and (min-width: 600px) {
+  header {
+    background-color: #ff385c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    padding: 10px;
+  }
+
+  form {
+    flex-direction: row;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  .vacation-form .item {
+    display: flex block;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+  .item label
+  , .item input
+  , .item select
+  , .item button{
+    display: flex;
+    width: 100%
+  }
+
+  .grid-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .grid-row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+}
+
+
+
+/*@media all and (min-width: 786px) {
   .logo {
     display: flex;
     justify-content: flex-start;
