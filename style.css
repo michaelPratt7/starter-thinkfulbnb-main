@@ -98,21 +98,33 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   border: 2px solid #ff385c;
   padding: 10px;
 }
 
 form label {
   font-weight: bold;
-  padding-right: 10px;
 }
 
-form button:hover {
-    color: #7A7978;
-  text-decoration: none;
+form input {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form select {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px; 
+  width: 205px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
 }
 
 form button {
@@ -124,15 +136,6 @@ form button {
   width: 100%;
 }
 
-.form-input {
-  display: flex;
-  justify-content: space-between;
- 
-}
-
-select {
-  padding-right: 70px;
-}
 
 /* -------  Footer ------- */
 
@@ -147,6 +150,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
 @media all and (min-width: 480px) {
  
   .group {
@@ -181,7 +185,25 @@ form {
 form div {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin-right: auto;
+  width:auto;
 }
+
+form select,
+form input {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  
+  width: 100%;
+}
+
+form button {
+  width: 20%;
+}
+
+
 
 header h1 {
   font-size: 42px;
