@@ -176,10 +176,11 @@ footer p {
     justify-content: space-between;
   }
 
-form {
+/*form {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: auto;
 }
 
 form div {
@@ -187,7 +188,7 @@ form div {
   flex-direction: column;
   justify-content: space-between;
   margin-right: auto;
-  width:auto;
+  width: auto;
 }
 
 form select,
@@ -195,14 +196,12 @@ form input {
   display: flex;
   justify-content: space-between;
   padding: 0px;
-  
   width: 100%;
 }
 
 form button {
   width: 20%;
-}
-
+}*/
 
 
 header h1 {
@@ -211,4 +210,34 @@ header h1 {
   padding-top: 6px;
 }
 
+}
+
+@media all and (min-width: 800px) {
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  form select,
+  form input {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  form button {
+    width: 20%;
+  }
 }
