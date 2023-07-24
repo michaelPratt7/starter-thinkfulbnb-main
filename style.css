@@ -106,20 +106,10 @@ form label {
   font-weight: bold;
 }
 
+form select,
 form input {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
   margin-bottom: 20px;
   width: 180px;
-}
-
-form select {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 20px; 
-  width: 205px;
 }
 
 form div {
@@ -176,32 +166,20 @@ footer p {
     justify-content: space-between;
   }
 
-/*form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: auto;
-}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-form div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: auto;
-  width: auto;
-}
-
-form select,
-form input {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px;
-  width: 100%;
-}
-
-form button {
-  width: 20%;
-}*/
+  form div{
+    display: flex;
+    flex-direction: column;
+  }  
+  
+form button{
+    width: 15%
+  }
 
 
 header h1 {
@@ -210,34 +188,4 @@ header h1 {
   padding-top: 6px;
 }
 
-}
-
-@media all and (min-width: 800px) {
-
-  form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: auto;
-  }
-  
-  form div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: auto;
-    width: auto;
-  }
-  
-  form select,
-  form input {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    width: 100%;
-  }
-  
-  form button {
-    width: 20%;
-  }
 }
